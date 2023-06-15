@@ -7,9 +7,10 @@
   margin: 0;
   padding: 0;
 }
-li{
+.i-navbar{
   padding-left: 5%;
   list-style: none;
+  font-size: 20px;
 }
 .navbar{
   padding: 2rem; 
@@ -47,7 +48,8 @@ li{
 }
 .general_container{
   display: flex;
-  padding: 5%;
+  
+  justify-content: center;
 }
 .m_studios{
   padding-left: 37%;
@@ -62,6 +64,7 @@ li{
 }
 .text{
   width: 90%;
+  justify-content: center;
   padding: .5% 8%;
   color: white;
   font-size: 24px;
@@ -91,7 +94,7 @@ li{
   margin-top: 2%;
   font-weight: bolder;
 }
-button{
+.btn{
   width: 30%;
   border-radius: 40px;
   border-color: black;
