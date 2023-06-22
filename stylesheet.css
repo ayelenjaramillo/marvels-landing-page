@@ -1,0 +1,140 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Montserrat:wght@200&family=Noto+Serif:wght@700&family=Outfit:wght@100&family=Raleway:ital,wght@0,100;0,500;1,200&family=Roboto:ital,wght@0,500;1,900&family=Swanky+and+Moo+Moo&display=swap');
+
+*{
+  background-color:#3a1e45; 
+  margin: 0;
+  padding: 0;
+}
+.i-navbar{
+  padding-left: 5%;
+  list-style: none;
+  font-size: 20px;
+}
+.navbar{
+  padding: 2rem; 
+  display: flex;
+  width: 90%;
+}
+.img_navbar{
+  padding-left: 6%;
+}
+.list-navbar{
+  display:flex; 
+  width: 70%;
+  justify-content: end;
+  text-decoration: none;
+  margin-top: 3.5%;
+  font-family: 'Outfit'; 
+  font-weight: bolder;
+}
+.item{
+  color: white;
+  text-decoration: none;
+ 
+}
+.right{
+  width: 25%;
+  padding-left: 2%;
+}
+.img{
+  padding-left: 1.7%;
+  margin-bottom: 3%;
+  
+}
+.random_g{
+  padding-left: 20%;
+}
+.general_container{
+  display: flex;
+  
+  justify-content: center;
+}
+.m_studios{
+  padding-left: 37%;
+}
+._title{
+  padding-left: 6% ;
+  font-size: 75px;
+  font-family: 'Goldman';
+  color: white;
+  -webkit-text-stroke: 2px #E90909;
+  font-weight: 300;
+}
+.text{
+  width: 90%;
+  justify-content: center;
+  padding: .5% 8%;
+  color: white;
+  font-size: 24px;
+  font-family: 'Outfit'; 
+  font-weight: bold;
+}
+.secondary_t{
+  padding-left: 23%;
+  font-size: 70px;
+  font-family: 'Swanky and Moo Moo'; 
+  -webkit-text-stroke: 1.5px white;
+  font-weight: 300;
+}
+.watch_more{
+  display: flex;
+  padding-left: 5%;
+  margin-top: 6%;
+  justify-content: space-around;
+  color: white;
+  font-size: 18px;
+  font-family: 'Outfit'; 
+}
+.spider_img{
+  padding-right: 5%;
+}
+.watch-title{
+  margin-top: 2%;
+  font-weight: bolder;
+}
+.btn{
+  width: 30%;
+  border-radius: 40px;
+  border-color: black;
+  font-size: 50px;
+  border-style: solid;
+  font-weight: bolder;
+  color: white;
+  font-size: 25px;
+  border-color: white;
+  background: #232342
+}
+
+@media (min-width: 1010px){
+ .img{
+  margin-top: 12%;
+ }
+ .m_studios{ 
+  padding-left: 45%;
+ }
+ .img_navbar{
+  padding-left: 17%;
+  padding-top: 2.5%;
+ }
+ .general_container{
+  width: 80%;
+  padding-left: 14%;
+ }
+ ._title{
+  padding-left: 18%;
+  font-size: 85px ;
+ }
+ .secondary_t{
+  padding-left: 32%;
+ }
+ .text{
+  font-size: 32px;
+ 
+ }
+ .spider_img{
+  width: 550px;
+  padding-right: 10%;
+ }
+}
