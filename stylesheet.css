@@ -56,7 +56,7 @@
 }
 ._title{
   padding-left: 6% ;
-  font-size: 75px;
+  font-size: 30px;
   font-family: 'Goldman';
   color: white;
   -webkit-text-stroke: 2px #E90909;
@@ -109,32 +109,40 @@
 
 @media (min-width: 1010px){
  .img{
-  margin-top: 12%;
+  margin-top: 10%;
  }
  .m_studios{ 
-  padding-left: 45%;
+  padding-left: 30%;
+  margin-top: 5%;
  }
  .img_navbar{
-  padding-left: 17%;
+  padding-left: 7%;
   padding-top: 2.5%;
  }
  .general_container{
-  width: 80%;
-  padding-left: 14%;
+  width: 90%;
+  padding-left: 10%;
  }
  ._title{
-  padding-left: 18%;
-  font-size: 85px ;
+  padding-left: 2%;
+  font-size: 70px ;
  }
  .secondary_t{
-  padding-left: 32%;
+  padding-left: 12%;
  }
  .text{
-  font-size: 32px;
+  font-size: 25px;
+  padding: 0%;
+  margin: 0;
  
  }
  .spider_img{
-  width: 550px;
-  padding-right: 10%;
+  width: 400px;
+  height: 600px;
+  padding-right: 3%;
+ }
+ .watch_more{
+  padding-right: 20%;
+  padding-left: 0;
  }
 }
